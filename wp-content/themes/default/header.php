@@ -15,7 +15,12 @@
     }
     ?>
     <!-- End Site Options -->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
 <!-- Included via Site Options -->
@@ -30,7 +35,7 @@ if (get_field("site_header_code") != "") {
         <div class="logo__container">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo__link">
                 <div class="logo__wrap">
-                    <?php //echo file_get_contents(IMAGES_SERVER . '/logo.svg'); ?>
+                    <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/travelmax.png" alt="Logo of Website" />
                 </div>
                 <meta itemprop="name" content="<?php bloginfo('name'); ?>">
             </a>

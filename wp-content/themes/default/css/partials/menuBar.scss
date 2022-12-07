@@ -2,7 +2,7 @@ $menubar-transition: 0.4s ease;
 
 .menuBar__container {
     position: relative;
-    display: block;
+    display: none;
     width: 36px;
     height: 26px;
     transition: $menubar-transition;

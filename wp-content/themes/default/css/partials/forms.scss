@@ -25,7 +25,7 @@ textarea {
     border-radius: 5px;
     padding: 24px 20px 22px;
     color: #161616;
-    background: #ffffff;
+    background: $White;
     height: 65px;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -60,7 +60,7 @@ textarea {
     font-weight: 500;
     font-family: $primary-family;
     color: #FFAAAAAA;
-    background: #ffffff;
+    background: $White;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -97,7 +97,7 @@ textarea {
 
 .ginput_container input.medium,
 .ginput_container textarea.textarea {
-    background: #ffffff;
+    background: $White;
     outline: none;
     width: 100% !important;
     color: #161616;
@@ -197,7 +197,7 @@ img.gform_ajax_spinner {
     border: 1px solid #FFAAAAAA;
     border-radius: 5px;
     padding: 24px 20px 22px;
-    background: #ffffff;
+    background: $White;
     height: 65px;
     margin-bottom: 3px;
 }
@@ -220,7 +220,7 @@ img.gform_ajax_spinner {
         right: 25px;
         position: absolute;
         top: 50%;
-        color: #ffffff;
+        color: $White;
         transform: translateY(-50%);
         transition: all 0.2s ease-in-out;
     }
