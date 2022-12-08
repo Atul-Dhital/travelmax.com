@@ -66,15 +66,13 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  &::after {
-    content: "";
+  .galler__last{
     width: 100%;
     height: 25px;
     position: absolute;
     margin-top: 418px;
     background-image: url(uploads/travelbottom.png);
     margin-left: -50px;
-  
   }
   @media #{$tablet} {
     top: 90px;

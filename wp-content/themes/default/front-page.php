@@ -167,6 +167,7 @@ the_post();
                         <h4 class="gallery__imgTitle">Sightseeing Kathmandu</h4>
                     </div>
                 </div>
+                <div class="galler__last"></div>
             </div>
         </div>
         </div>

@@ -2,7 +2,6 @@ footer {
   position: relative;
   padding-top: 100px;
   background-color: $primary-color;
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,12 +9,15 @@ footer {
   @media #{$tablet} {
     position: relative;
   }
+  svg{
+    display: none;
+  }
 }
 .footer__contact {
   width: 100%;
   display: flex;
-  
-  gap:30px;
+
+  gap: 30px;
   flex-wrap: wrap;
   @media #{$header} {
     width: 100%;
@@ -30,7 +32,7 @@ footer {
   .contact__office {
     padding-right: 30px;
     height: auto;
-   width:770px;
+    width: 770px;
     @media #{$tablet} {
       width: 100%;
       height: auto;
@@ -189,6 +191,7 @@ footer {
     font-size: 16px;
     line-height: 26px;
     color: rgba(255, 255, 255, 0.75);
+   
   }
 }
 
@@ -270,7 +273,6 @@ footer {
     padding-bottom: 26px;
     display: flex;
     gap: 82px;
-
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -292,7 +294,14 @@ footer {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
-
+    li{
+      a{
+        color: $instagram;
+      }
+      :hover{
+        color: $blogger;
+      }
+    }
     li:first-child {
       list-style: none;
     }
@@ -328,7 +337,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   @media #{$phone} {
     padding-top: 20px;
   }
