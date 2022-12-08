@@ -191,7 +191,11 @@ footer {
     font-size: 16px;
     line-height: 26px;
     color: rgba(255, 255, 255, 0.75);
-   
+   a{
+    :hover{
+      color: $blogger;
+    }
+   }
   }
 }
 
@@ -249,7 +253,13 @@ footer {
   gap: 40px;
   border-bottom: 1px solid $White;
   border-top: 1px solid $White;
-
+  a{
+    display: inline;
+    :hover{
+      zoom:110%;
+      fill: $instagram;
+    }
+  }
   @media #{$phone} {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -296,7 +306,7 @@ footer {
     }
     li{
       a{
-        color: $instagram;
+        color: rgba(255, 255, 255, 0.75);
       }
       :hover{
         color: $blogger;

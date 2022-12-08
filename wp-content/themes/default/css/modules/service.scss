@@ -161,13 +161,11 @@
 .service__navigation {
   background-image: url(uploads/service__navigation.jpeg);
   display: flex;
-  justify-content: center;
-  gap: 0px;
   max-width: 1158px;
-  width: 100%;
   height: 104px;
   border: 1px solid rgba(32, 57, 66, 0.25);
   border-radius: 103px;
+  justify-content: center;
   @media #{$tablet} {
     max-width: 768px;
     width: 100%;
@@ -187,6 +185,9 @@
     height: auto;
     padding: 10px 20px 10px 20px;
   }
+.service__slideContent--active{
+  background-image: url(uploads/serviceback.png);
+}
   .service__slideContent {
     display: flex;
     flex-direction: column;
@@ -203,7 +204,11 @@
       overflow: hidden;
       width: 50px;
     }
+:hover{
+  background-image: url(uploads/serviceback.png);
+  width: 100px;
 
+}
     .slideScroll__logo {
       .icon {
         width: 44;
